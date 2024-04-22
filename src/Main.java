@@ -19,10 +19,8 @@ public class Main {
     }
     public static class JavaStudent extends Student {
         public JavaStudent() {
-            super();
             System.out.println("Я студент направлени Java");
         }
-        @Override
         public void study(){
             super.study();
             System.out.println("Я очень занят. Прохожу курс по Java");
