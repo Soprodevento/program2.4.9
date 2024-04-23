@@ -18,13 +18,13 @@ public class Main {
         }
     }
     public static class JavaStudent extends Student {
-        public JavaStudent() {
-            System.out.println("Я студент направлени Java");
+        public JavaStudent(String work){
+            super(work);
         }
-        public void study(){
-            super.study();
-            System.out.println("Я очень занят. Прохожу курс по Java");
+        public JavaStudent(){
+            this("Прохожу курс по Java");
         }
+
     }
 
 }
